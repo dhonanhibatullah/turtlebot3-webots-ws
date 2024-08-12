@@ -1,0 +1,8 @@
+services:
+  wbtros2-broker:
+    image: wbtros2-broker-image
+    container_name: wbtros2-broker
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    restart: always
